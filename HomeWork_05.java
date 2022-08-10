@@ -92,12 +92,13 @@ public class HomeWork_05 {
         int n = in.nextInt();
         boolean res = false;
 
-        for (int i = 1; (i <= n) || (res == true); i++) {
+        for (int i = 1; i <= n; i++) {
             System.out.print("Inter the number N" + i + " :");
             int ni = in.nextInt();
             if (ni < k) {
                 res = true;
                 System.out.println("At least one number smaller than " + k + " result:" + res);
+                break;
             } else System.out.println("FALSE");
         }
 
