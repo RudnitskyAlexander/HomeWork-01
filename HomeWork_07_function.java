@@ -112,25 +112,25 @@ public class HomeWork_07_function {
 
 	} // main
 
-	public static double circleS(double radius) {
+	static double circleS(double radius) {
 		final double PI = 3.14;
 		double square = PI * radius * radius;
 		return square;
 	}
 
-	public static double ringS(double radius1, double radius2) {
+	static double ringS(double radius1, double radius2) {
 		final double PI = 3.14;
 		double squareRing = PI * (radius1 * radius1 - radius2 * radius2);
 		return squareRing;
 	}
 
-	public static double triangleP(double base, double height) {
+	static double triangleP(double base, double height) {
 		double b = Math.sqrt((base / 2) * (base / 2) + height * height);
 		double perimeter = b * 2 + base;
 		return perimeter;
 	}
 
-	public static int sumRange(int a, int b) {
+	static int sumRange(int a, int b) {
 		int res = 0;
 		if (a > b) {
 			System.out.println("Incorrect value.");
@@ -142,7 +142,7 @@ public class HomeWork_07_function {
 		return res;
 	}
 
-	public static int rootsCount(int a, int b, int c) {
+	static int rootsCount(int a, int b, int c) {
 		int rootQuant;
 		int d;
 		d = b * b - 4 * a * c;
