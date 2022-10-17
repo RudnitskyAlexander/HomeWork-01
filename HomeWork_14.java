@@ -1,4 +1,5 @@
 package HomeWork;
+// домашнее задание №14 двухмерные массивы. Рудницкий Александр
 
 import java.util.Random;
 import java.util.Arrays;
@@ -92,7 +93,7 @@ public class HomeWork_14 {
 		task21(mas);
 
 // найти сумму элементов главной диагонали матрицы
-		
+
 //        fillMatrix(mas);
 //        System.out.println(Arrays.deepToString(mas));
 //
